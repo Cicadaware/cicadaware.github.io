@@ -31,6 +31,7 @@ header, footer {
   border-radius: 25px;
   margin: 1rem;
   padding: 1rem;
+  border: 2px solid #fffb00;
 }
 
 footer {
@@ -85,6 +86,7 @@ footer {
   flex-direction: column;
   overflow: hidden;
   line-height: 1.4;
+  text-align: center;
 }
 
 .post-block:hover {
