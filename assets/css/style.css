@@ -108,10 +108,12 @@ footer {
   color: #fffb00;
   margin: 0 0 0.5rem 0;
   font-weight: 600;
+  padding: 0.5rem;
 }
 
 .post-summary {
   font-style: italic;
   margin: 0 0 0.5rem 0;
   color: #ddd;
+  padding: 0.5rem;
 }
