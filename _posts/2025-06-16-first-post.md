@@ -6,7 +6,7 @@ summary: I introduce myself. This blog will consist mostly of art and software. 
 ---
 
 # Introduction
-
+{{post.date}}
 ## Welcome to my first blog post!
 
 Oh my! I have taken on the task of writing development blog posts. What does this actually mean? Well, in my case, it means I want to keep a journal. 
