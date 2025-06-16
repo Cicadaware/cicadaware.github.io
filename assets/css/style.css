@@ -29,9 +29,26 @@ header, footer {
 footer {
   font-size: 0.9rem;
   color: #888;
+}
+
+.site-footer {
+  position: relative;
   display: flex;
-  justify-content: space-between; 
   align-items: center;
+  justify-content: center;
+  height: 50px;
+  padding: 0 20px;
+}
+
+.footer-left{
+  position: absolute;
+  left: 20px;
+}
+
+.footer-center {
+  margin: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .page-container {
