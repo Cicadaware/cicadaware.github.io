@@ -17,7 +17,7 @@ html {
 
 a {
   color: #fffb00;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 header, footer {
@@ -49,4 +49,11 @@ footer {
   background-color: black;
   padding: 1rem;
   border-radius: 25px;
+}
+
+.round-block {
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  padding: 1rem;
 }
