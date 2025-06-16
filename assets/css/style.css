@@ -47,6 +47,10 @@ footer {
   min-height: 100vh;
 }
 
+.welcome {
+  text-align: center;
+}
+
 .content {
   flex: 1;
   background-color: rgba(0, 0, 0, 0.85);

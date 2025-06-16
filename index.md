@@ -10,6 +10,7 @@ title: Home
 
 {{ post.excerpt }}
 
+{{ post.content }}
 *Posted on {{ post.date | date: "%B %d, %Y" }}*
 
 ---
