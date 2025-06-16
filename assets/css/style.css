@@ -68,3 +68,17 @@ footer {
   padding: 1rem;
   border: 2px solid #fffb00;
 }
+
+.post-block {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #fffb00;
+  border-radius: 25px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.post-block:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
