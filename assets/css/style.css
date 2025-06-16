@@ -20,10 +20,7 @@ a {
   text-decoration: underline;
 }
 
-a:hover {
-  color: #ffaa00;
-}
-
+a:hover,
 a:focus {
   color: #ffaa00;
 }
@@ -33,6 +30,7 @@ header, footer {
   text-align: center;
   border-radius: 25px;
   margin: 1rem;
+  padding: 1rem;
 }
 
 footer {
@@ -42,6 +40,12 @@ footer {
 
 .welcome {
   text-align: center;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .content {
@@ -54,47 +58,49 @@ footer {
   overflow: hidden;
 }
 
-.round-block {
-  background-color: rgba(0, 0, 0, 0.85);
-  border-radius: 25px;
-  margin: 1rem;
-  padding: 1rem;
-  border: 2px solid #fffb00;
-}
-
-.post-block {
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 2px solid #fffb00;
-  border-radius: 25px;
-  padding: 1rem;
-  margin: 1rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  transition: background-color 0.3s ease;
-  flex: 1 1 250px;
-  width: 300px;
-  height: 200px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
-
+/* Grid of post cards */
 .post-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
 }
+
+/* Make entire card clickable */
 .post-link {
   text-decoration: none;
   color: inherit;
   display: block;
+  flex: 1 1 300px;
+  max-width: 300px;
 }
-.post-link:hover .post-block {
+
+/* Post card styling */
+.post-block {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #fffb00;
+  border-radius: 25px;
+  padding: 1rem;
+  height: 200px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.post-block:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.page-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+/* Truncate excerpt to max 3 lines */
+.post-block p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-top: 0.5rem;
+  flex-grow: 1;
 }
