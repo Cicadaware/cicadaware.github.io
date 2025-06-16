@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "First Blog Post"
-date: 2025-06-16 15:30:00 +0200
+date: 2025-05-16 15:30:00 +0200
 summary: I introduce myself. This blog will consist mostly of art and software. Do not have any expectations, this is a casual blog. Blog posts will be inconsistent and spaced out.
 ---
 
