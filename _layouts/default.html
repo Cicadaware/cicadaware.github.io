@@ -8,7 +8,7 @@
 <body>
   <div class="page-container">
     <header>
-      <h1><a href="/">{{ site.title }}</a></h1>
+      <h1><a>{{ site.title }}</a></h1>
     </header>
 
     <main class="content">
@@ -16,7 +16,9 @@
     </main>
 
     <footer>
+      {% if page.url != "/" %}
       <a href="/"> Back to Homepage</a>
+      {% endif %}
       <p>© {{ site.time | date: "%Y" }} Cicadacore @ Cicadaware</p>
     </footer>
   </div>
