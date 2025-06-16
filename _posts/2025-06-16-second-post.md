@@ -2,6 +2,7 @@
 layout: default
 title: "First Blog Post"
 date: 2025-06-16 15:30:00 +0200
+summary: This is a summary
 ---
 
 # Introduction

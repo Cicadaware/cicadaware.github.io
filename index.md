@@ -9,8 +9,8 @@ title: Home
 ## [{{ post.title }}]({{ post.url }})
 
 {{ post.excerpt }}
+{{ post.summary }}
 
-{{ post.content }}
 *Posted on {{ post.date | date: "%B %d, %Y" }}*
 
 ---
