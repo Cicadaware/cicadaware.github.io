@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Blog
-
 <p>Number of posts: {{ site.posts | size }}</p>
 
 {% for post in site.posts %}
