@@ -38,11 +38,8 @@ footer {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0.85);
-  overflow: hidden;
   margin: 1rem;
-  border: 2px solid #fffb00;
+
 }
 
 .content {
@@ -50,12 +47,15 @@ footer {
   background-color: black;
   padding: 1rem;
   border-radius: 25px;
+  margin: 1rem;
+  border: 2px solid #fffb00;
+  overflow: hidden;
 }
 
 .round-block {
   background-color: rgba(0, 0, 0, 0.85);
   border-radius: 25px;
-  margin-bottom: 1rem;
+  margin: 1rem;
   padding: 1rem;
   border: 2px solid #fffb00;
 }
