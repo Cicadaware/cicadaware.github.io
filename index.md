@@ -16,5 +16,5 @@ title: Home
 
 *Posted on {{ post.date | date: "%B %d, %Y" }}*
 
----
+</div>
 {% endfor %}
