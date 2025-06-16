@@ -16,7 +16,7 @@ I have many reason for doing this: accountability, progress tracking, sharing an
 - I would say that there are two main categories that I'm interested in: art and software. There isn't much within these two categories that I'm NOT interested in. Gimme all that knowledge!
 - Naturally, at the intersection of these two categories lies game development, which contains both art and software. 
 
-![Software, Art and Game Developement Venn Diagram]({{C:\Users\prash\cicadaware.github.io\assets\images\software-art-gamedevelopment-venn-diagram.png}})
+![Software, Art and Game Developement Venn Diagram](https://cicadaware.github.io/assets/images/software-art-gamedevelopment-venn-diagram.png)
 
 ## What to expect? 
 - Not much. My writing skills leave a lot to be desired. Sometimes I don't even know whats going on in my own noggin', let alone being able
