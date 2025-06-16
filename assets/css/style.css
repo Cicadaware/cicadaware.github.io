@@ -37,6 +37,11 @@ footer {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.85);
+  overflow: hidden;
+  margin: 1rem;
+  border: 2px solid #444;
 }
 
 .content {
