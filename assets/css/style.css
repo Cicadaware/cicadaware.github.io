@@ -84,6 +84,7 @@ footer {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  line-height: 1.4;
 }
 
 .post-block:hover {
