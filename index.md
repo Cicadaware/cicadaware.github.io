@@ -14,7 +14,7 @@ title: Home
 
 <p>{{ post.summary }}</p>
 
-*Posted on {{ post.date | date: "%B %d, %Y" }}*
+<p><small> Posted on {{ post.date | date: "%B %d, %Y" }} </small></p>
 
 </div>
 {% endfor %}
