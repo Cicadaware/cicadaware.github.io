@@ -6,7 +6,6 @@ body {
   height: 100%;
   min-height: 100vh;
   background-image: url('https://cicadaware.github.io/assets/images/background.png');
-  background-size: cover;
   background-repeat: repeat;
   background-position: center;
 }
