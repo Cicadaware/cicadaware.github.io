@@ -32,7 +32,7 @@ to put that into words. You can expect my sentences to range from "Modern-day Sh
 ## About me?
 - Hey there! My pseudonym is 'Cicadacore', it's a pleasure to meet you! 
 - I'm introverted and a little socially awkward (could you tell?). I'd like to put myself out there more and experience the world.
-- At the time of writing I'm a 28 years old male. I have a few tattoos, I wear glasses, I love gaming, movies, music, art, ..and most things introverted people are into!
+- At the time of writing I'm a 28 years old male. I wear glasses, I have a few tattoos, I love gaming, movies, music, art, ..and most things introverted people are into!
 - I am very much a regular guy so there's not much extraordinary to mention, I've been through great times and really bad times (unfortunately), but would not like for those things to define me.
 - I believe that an important part of being a creative is sharing your work with others, I'd like to start doing that, but courageously sharing my work online is a bit too much for me at the moment, so I'd like to start small with a blog. I just want to take the things that are in my mind and leave it somewhere, a kind of "cathartic offloading".
 - I have an obsessive curiosity that NEEDS to be sated. The subject doesn't matter, I need to know how it works. 
