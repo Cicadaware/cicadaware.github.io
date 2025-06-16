@@ -12,13 +12,13 @@
   </header>
 
   <div class="page-container">
-    <h1> Welcome To My Blog </h1>
     <main class="content">
+      <h1> Welcome To My Blog </h1>
       {{ content }}
     </main>
   </div>
   <footer class="round-block">
-    {% if page.url != "/" %}
+    {% if page.url != "/" %} 
       <a href="/" class="home-link">Back to homepage</a>
     {% endif %}
       <p>© {{ site.time | date: "%Y" }} Cicadacore @ Cicadaware</p>
