@@ -16,7 +16,9 @@
     </main>
 
     <footer>
-      <a href="/" class="home-link">Back to homepage</a>
+      {% if page.url != "/" %}
+        <a href="/" class="home-link">Back to homepage</a>
+      {% endif %}
       <p>© {{ site.time | date: "%Y" }} Cicadacore @ Cicadaware</p>
     </footer>
   </div>
