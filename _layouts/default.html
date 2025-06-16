@@ -5,22 +5,23 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-<body>
-  <div class="page-container">
-    <header class="round-block">
-      <h1><a>{{ site.title }}</a></h1>
-    </header>
+<body>    
+  
+  <header class="round-block">
+    <h1><a>{{ site.title }}</a></h1>
+  </header>
 
+  <div class="page-container">
     <main class="content">
       {{ content }}
     </main>
-
-    <footer class="round-block">
-      {% if page.url != "/" %}
-        <a href="/" class="home-link">Back to homepage</a>
-      {% endif %}
-      <p>© {{ site.time | date: "%Y" }} Cicadacore @ Cicadaware</p>
-    </footer>
   </div>
+  <footer class="round-block">
+    {% if page.url != "/" %}
+      <a href="/" class="home-link">Back to homepage</a>
+    {% endif %}
+    <p>© {{ site.time | date: "%Y" }} Cicadacore @ Cicadaware</p>
+  </footer>
+
 </body>
 </html>
