@@ -74,13 +74,13 @@ footer {
   max-width: 300px;
 }
 
-.post-block:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
 .post-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+}
+
+.post-link:hover .post-block {
+  background-color: rgba(255, 255, 255, 0.2);
 }
