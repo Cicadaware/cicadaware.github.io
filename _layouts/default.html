@@ -7,7 +7,15 @@
 </head>
 <body>    
   <header class="round-block">
-    <h1>{{ site.title }}</h1>
+    <h1 class="title">{{ site.title }}</h1>
+
+      <div class="nav">
+        <a href="/">Home</a>
+        <a href="/2025/06/16/first-post.html">About</a>
+        <a>Portfolio</a>
+        <a>Social Media</a>
+      </div>
+
   </header>
 
   <div class="page-container">
@@ -18,7 +26,7 @@
         {% for post in site.posts %}
           <a href="{{ post.url }}" class="post-link">
             <article class="post-block">
-              <h2>{{ post.title }}</h2>
+              <h2 class="post-title">{{ post.title }}</h2>
               <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
               <p class="post-summary">{{ post.summary | strip_html | truncate: 100 }}</p>
             </article>
