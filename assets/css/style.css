@@ -17,6 +17,7 @@ body {
 
 .title {
   justify-content: center;
+  font-size: 3rem;
 }
 
 .nav {
@@ -46,6 +47,7 @@ header, footer {
   margin: 1rem;
   padding: 1rem;
   border: 2px solid #fffb00;
+  box-shadow: 0px 4px 10px 0 rgba(122, 122, 122);
 }
 
 footer {
@@ -66,10 +68,10 @@ footer {
   flex: 1;
   background-color: rgba(0, 0, 0, 0.75);
   padding: 1rem;
-
   margin: 1rem;
   border: 2px solid #fffb00;
   overflow: hidden;
+  box-shadow: 0px 4px 10px 0 rgba(122, 122, 122);
 }
 
 .post-grid {
