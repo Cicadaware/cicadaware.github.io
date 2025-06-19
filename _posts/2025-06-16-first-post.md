@@ -41,5 +41,5 @@ to put that into words. You can expect my sentences to range from "Modern-day Sh
 - Here's to many more!
 
 
-Keep safe, happy and health! 
+Keep safe, happy and healthy! 
 Regards, Cicadacore @ Cicadaware.
