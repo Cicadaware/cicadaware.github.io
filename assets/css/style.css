@@ -7,42 +7,40 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   height: 100%;
   min-height: 100vh;
-  background-image: url('https://cicadaware.github.io/assets/images/background.png');
+  background-color: #0d0d0d;
   background-repeat: repeat;
   background-position: center;
+  margin: 0;
 }
 
 .title {
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 3rem;
+  color: #e0e0e0;
 }
 
 .nav {
   gap: 10px;
-  justify-content: right;
-  text-align: right;
+  text-align: center;
   font-size: 0.95rem;
+  margin: 1rem;
 }
 
 a {
   color: #ddd;
   text-decoration: none;
-  border-radius: 3px;
   padding: 0.2rem;
 }
 
 a:hover,
 a:focus {
   color: white;
-  border-color: white;
   text-decoration: underline;
 }
 
 header, footer {
-  background-color: rgba(0, 0, 0, 0.60);
-  border: 2px solid #fffb00;
-  box-shadow: 0px 0px 10px 0 #fffb00;
-  border-radius: 5px;
+  background-color: #121c25;
   margin: 1rem 0 1rem 0;
 }
 
@@ -50,10 +48,14 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   color: #888;
+  border-top: 2px solid #1b2833;
+  padding-bottom: 0.2rem;
 }
 
 header {
   padding: 0.5rem;
+  margin-top: 0;
+  border-bottom: 2px solid #1b2833;
 }
 
 .page-container {
@@ -64,16 +66,18 @@ header {
 
 .welcome {
   text-align: center;
+  color:#e0e0e0;
 }
 
 .content {
   flex: 1;
-  background-color: rgba(0, 0, 0, 0.60);
+  background-color: #1a1a1a;
+  border: 2px solid #242424;
   padding: 1rem;
-  border: 2px solid #fffb00;
   overflow: hidden;
-  box-shadow: 0px 0px 10px 0 #fffb00;
-  border-radius: 5px;
+  background-image: url('https://raw.githubusercontent.com/Cicadaware/cicadaware.github.io/refs/heads/main/assets/images/background.png');
+  background-repeat: repeat;
+  background-size: 384px 216px;
 }
 
 .post-grid {
@@ -85,16 +89,14 @@ header {
 
 .post-link {
   text-decoration: none;
-  color: #ddd;
+  color: inherit;
   display: block;
   flex: 1 1 300px;
   max-width: 300px;
 }
 
 .post-block {
-  border: 2px solid  #2979FF;
-  box-shadow: 0px 0px 10px 0 #2979FF;
-  background-color: rgba(122, 122, 122, 0.198);
+  background-color: #222222;
   padding: 1rem;
   height: 200px;
   box-sizing: border-box;
@@ -103,11 +105,12 @@ header {
   overflow: hidden;
   line-height: 1.4;
   text-align: center;
-  border-radius: 5px;
+  border: 2px double grey;
 }
 
 .post-block:hover {
-  background: linear-gradient(to bottom, rgba(255, 0, 0, 0), #2979FF);
+  background-color: #2a2a2a;
+  transform: scale(1.05);
 }
 
 .post-block p {
@@ -128,6 +131,3 @@ header {
   color: #ddd;
 }
 
-.post-block:hover .post-summary, .post-block:hover .post-date {
-  color: black;
-}
