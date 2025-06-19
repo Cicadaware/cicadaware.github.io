@@ -6,29 +6,29 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
 </head>
 <body>    
-  <header class="round-block">
+  <header>
+    <div class="title-links">
     <h1 class="title">{{ site.title }}</h1>
-
       <div class="nav">
-        <a class="nav-links" href="/">HOME</a>
-        <a class="nav-links" href="/2025/06/16/first-post.html">ABOUT</a>
-        <a class="nav-links" href="https://cicadacore.itch.io/">ITCH.IO</a>
-        <a class="nav-links" href="https://www.youtube.com/@Cicadacore64">YOUTUBE</a>
-        <a class="nav-links" href="https://www.twitch.tv/cicadacore">TWITCH</a>
-        <a class="nav-links" href="https://discord.gg/uyxnK4YzVw">DISCORD</a>
+        <a href="/" class="nav-links">HOME</a>
+        <a href="/2025/06/16/first-post.html" class="nav-links">ABOUT</a>
+        <a href="https://cicadacore.itch.io/" class="nav-links">ITCH.IO</a>
+        <a href="https://www.youtube.com/@Cicadacore64" class="nav-links">YOUTUBE</a>
+        <a href="https://www.twitch.tv/cicadacore" class="nav-links">TWITCH</a>
+        <a href="https://discord.gg/uyxnK4YzVw" class="nav-links">DISCORD</a>
       </div>
-
+    </div>
   </header>
 
   <div class="page-container">
     <main class="content">
       {% if page.url == "/" %}
-      <h1 class="welcome">Welcome To My Blog</h1>
+      <h1 class="heading">POSTS</h1>
       <div class="post-grid">
         {% for post in site.posts %}
           <a href="{{ post.url }}" class="post-link">
             <article class="post-block">
-              <h2 class="post-title">{{ post.title }}</h2>
+              <h1 class="post-title">{{ post.title }}</h1>
               <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
               <p class="post-summary">{{ post.summary | strip_html | truncate: 100 }}</p>
             </article>
@@ -41,11 +41,11 @@
     </main>
   </div>
 
-  <footer class="round-block">
+  <footer>
     {% if page.url != "/" %} 
-      <a href="/" class="home-link">Back to homepage</a>
+      <a href="/" class="nav-links">Back to homepage</a>
     {% endif %}
-    <p>© {{ site.time | date: "%Y" }} Cicadacore @ Cicadaware</p>
+    <p class="copyright">© {{ site.time | date: "%Y" }} Cicadacore @ Cicadaware</p>
   </footer>
 </body>
 </html>

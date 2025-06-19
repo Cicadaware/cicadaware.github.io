@@ -5,8 +5,6 @@ date: 2025-06-16 15:30:00 +0200
 summary: Introducing myself, what this blog is about, what to expect, about me.
 ---
 
-# Introduction
-{{post.date}}
 ## Welcome to my first blog post!
 
 Oh my! I have taken on the task of writing development blog posts. What does this actually mean? Well, in my case, it means I want to keep a journal. 
@@ -43,5 +41,5 @@ to put that into words. You can expect my sentences to range from "Modern-day Sh
 - Here's to many more!
 
 
-Keep safe, happy and health!
+Keep safe, happy and health! 
 Regards, Cicadacore @ Cicadaware.
