@@ -22,7 +22,7 @@ Boy oh boy... I have 3 assignments due next week. And guess what? I've spent 4 d
 
 ## Future plans
 
-I'd like to get into game development. School work and exams are coming up. I wonder how to balance my school work and game development. It's currently June, exams are in October/November, school work is ramping up. I don't think I can survive (mentally and spiritually) if I focus solely on school. I want to integrate game development into my daily life, maybe like 2-4 hours every day just learning and exploring the space. I'll certainly keep you posted on the blog on what I'm working on!
+I'd like to get into game development. School work and exams are coming up. I wonder how to balance my school work and game development. It's currently June, exams are in October/November, school work is ramping up. I don't think I can survive (mentally and spiritually) if I focus solely on school. I want to integrate game development into my daily life, maybe like 2-4 hours every day just learning and exploring the space. I'll certainly keep you posted in the blog with what I'm working on!
 
 ## Conclusion
 - I've enjoyed my *belated* first web development experience.
