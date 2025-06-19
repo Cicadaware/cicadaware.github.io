@@ -92,6 +92,9 @@ header {
   background: linear-gradient(rgb(42, 42, 42), black);
 }
 
+.content p {
+  margin: 1rem;
+}
 .post-grid {
   display: flex;
   flex-wrap: wrap;
