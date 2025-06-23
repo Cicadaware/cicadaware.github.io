@@ -148,6 +148,9 @@ header {
   background-size: 384px 216px;
 }
 
+.content p {
+  margin: 1rem;
+}
 .content h2 {
   text-align: center;
   font-size: 2rem;
@@ -156,18 +159,17 @@ header {
   margin: 0;
   background: linear-gradient(rgb(42, 42, 42), black);
 }
-.content p {
-  padding: 0 1rem 0 1rem;
- }
 
  .content a {
   color: rgb(130, 195, 255);
  }
+
  .content img {
   max-width: 100%;
   height: auto;
   display: block;
  }
+
 .post-grid {
   display: flex;
   flex-wrap: wrap;
@@ -194,7 +196,10 @@ header {
   border-radius: 5px;
   border: 2px solid grey;
   max-width: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
 }
 
 .post-block:hover {
@@ -224,6 +229,9 @@ header {
   font-size: 0.85rem;
   font-style: italic;
   color: #ddd;
+  border-top: 1px dotted grey;
+  border-bottom: 1px dotted grey;
+  display: inline;
 }
 
 .post-summary {
@@ -234,6 +242,9 @@ header {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  border-top: 1px dotted grey;
+  width: 100%;
+  height: 100%;
 }
 
 .post-block p {
