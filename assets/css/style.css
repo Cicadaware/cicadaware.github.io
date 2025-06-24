@@ -151,6 +151,7 @@ header {
 .content p {
   margin: 1rem;
 }
+
 .content h2 {
   text-align: center;
   font-size: 2rem;
@@ -204,11 +205,17 @@ header {
 
 .post-block:hover {
   transform: scale(1.05);
+  border: 2px solid rgb(130, 195, 255);
+}
+
+.post-block:hover .thumbnail {
+  border: 2px solid rgb(130, 195, 255);
 }
 
 .post-block:hover .post-title {
     background: linear-gradient( black, rgb(42, 42, 42));
 }
+
 .post-link {
   text-decoration: none;
   color: inherit;
@@ -216,6 +223,8 @@ header {
   flex: 1 1 300px;
   max-width: 300px;
 }
+
+
 .post-title {
   border-radius: 10px;
   background-color: #1b2833;
@@ -223,6 +232,7 @@ header {
   background: linear-gradient(rgb(42, 42, 42), black);
   margin: 0;
   font-size: 1.5rem;
+  text-decoration: none;
 }
 
 .post-date {
