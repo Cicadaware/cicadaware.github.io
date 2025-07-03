@@ -159,6 +159,7 @@ header {
   border-bottom: 2px solid #242424;
   margin: 0;
   background: linear-gradient(rgb(42, 42, 42), black);
+  color: rgb(130, 195, 255)
 }
 
  .content a {
@@ -169,6 +170,8 @@ header {
   max-width: 100%;
   height: auto;
   display: block;
+  border-radius: 5px;
+  border: 2px solid grey;
  }
 
 .post-grid {
@@ -193,15 +196,6 @@ header {
   border: 2px double grey;
 }
 
-.thumbnail {
-  border-radius: 5px;
-  border: 2px solid grey;
-  max-width: 100%;
-  object-fit: cover;
-  object-position: center;
-  width: 100%;
-  height: 100%;
-}
 
 .post-block:hover {
   transform: scale(1.05);
@@ -253,8 +247,6 @@ header {
   overflow: hidden;
   text-overflow: ellipsis;
   border-top: 1px dotted grey;
-  width: 100%;
-  height: 100%;
 }
 
 .post-block p {
