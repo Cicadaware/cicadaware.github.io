@@ -132,6 +132,7 @@ header {
   font-size: 2rem;
   background-color: #1a1a1a;
   border-bottom: 2px solid #242424;
+  border-top: 2px solid #242424;
   margin: 0;
   background: black;
   font-family: Arial, Helvetica, sans-serif;
@@ -153,10 +154,9 @@ header {
 .content h2 {
   text-align: center;
   font-size: 2rem;
-  background-color: #1a1a1a;
+  background-color: black;
   border-bottom: 2px solid #242424;
   margin: 0;
-  background:black;
   color: rgb(255, 255, 255, 1)
 }
 
@@ -247,6 +247,13 @@ header {
 .post-block p {
   margin: 0.5rem;
 }
+
+
+.post-content h2 {
+  border-top: 2px solid #242424;
+  border-bottom: 2px solid #242424;
+}
+
 
 /* footer */
 
