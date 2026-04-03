@@ -15,6 +15,8 @@ body {
 header {
   padding: 2rem;
   text-align: center;
+  border: 2px solid #242424;
+  border-bottom: none;
 }
 
 .title-nav-section {
@@ -189,6 +191,7 @@ header {
   line-height: 1.4;
   text-align: center;
   border: 2px double grey;
+  transition: transform 0.2s ease;
 }
 
 .post-block:hover {
@@ -251,10 +254,10 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   color: #888;
-  border-top: 2px solid #1b2833;
+  border: 2px solid #1b2833;
+  border-top: none;
   display: block;
   padding: 0.5rem;
-  margin-top: 1rem;
 }
 
 .home-link {
