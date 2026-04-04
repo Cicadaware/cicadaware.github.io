@@ -23,13 +23,13 @@ header {
   background-color: #1b2833;
   border: 2px solid #2f4455;
   background: #1b2833;
-  border-radius: 2px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
   padding: 1rem;
+  border-radius: 2px;
 }
 
 .title {
@@ -55,8 +55,9 @@ header {
   display: inline-block;
   transition: transform 0.2s ease;
   text-decoration: none;
-  background: #2f4455;
+  background-color: #2f4455;
   margin: 2px;
+  border-radius: 2px;
 }
 
 .nav-links:hover {
@@ -169,6 +170,7 @@ header {
   height: auto;
   display: block;
   border: 2px solid grey;
+  border-radius: 2%;
  }
 
 .post-grid {
@@ -192,6 +194,7 @@ header {
   text-align: center;
   border: 2px double grey;
   transition: transform 0.2s ease;
+  border-radius: 2%;
 }
 
 .post-block:hover {
