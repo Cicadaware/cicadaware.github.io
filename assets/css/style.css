@@ -14,7 +14,7 @@ body {
 
 header {
   text-align: center;
-  border: 2px solid #242424;
+  border: 1px solid grey;
   border-bottom: none;
 }
 
@@ -23,10 +23,12 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
   gap: 1rem;
-  border-radius: 2px;
+  border-radius: 1px;
+
 }
 
 .title {
@@ -42,14 +44,18 @@ header {
 
 .nav { 
   display: inline;
+  vertical-align: top;
 }
 
 .nav-links {
   /* background-color: #2f4455; */
   background-image: linear-gradient(to bottom, #2f4455, #23333f);
-  border-radius: 2px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
   box-sizing: border-box;
   width: 100%;
+  border: 1px solid #44637c;
+  overflow: hidden;
 }
 
 .nav-links:hover {
@@ -60,12 +66,13 @@ header {
 .dropdown {
   position: relative;
   display: inline-block;
+  line-height: 1.75;
 }
 
 .dropdown li {
   list-style: none;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .dropdown-menu {
@@ -80,10 +87,9 @@ header {
   background-color: #3a5469;
   justify-content: center;
   align-items: center;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
+  border: 1px solid #44637c;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -97,8 +103,6 @@ header {
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
   background-image: linear-gradient(to bottom, #2f4455, #23333f);
 }
 
@@ -128,8 +132,8 @@ header {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
   }
 
   .dropdown-nav-item:hover {
@@ -143,15 +147,15 @@ header {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  border: 2px solid #242424;
+  border: 1px solid grey;
 }
 
 .heading {
   text-align: center;
   font-size: 2rem;
   background-image: linear-gradient(to bottom, black, rgb(25, 25, 25));
-  border-bottom: 2px solid #242424;
-  border-top: 2px solid #242424;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -173,7 +177,7 @@ header {
   text-align: center;
   font-size: 2rem;
   background-image: linear-gradient(to bottom, black, rgb(25, 25, 25));
-  border-bottom: 2px solid #242424;
+  border-bottom: 1px solid grey;
   margin: 0;
   color: rgb(255, 255, 255, 1)
 }
@@ -186,7 +190,7 @@ header {
   max-width: 100%;
   height: auto;
   display: block;
-  border: 2px solid grey;
+  border: 1px solid grey;
   border-radius: 2%;
  }
 
@@ -209,19 +213,19 @@ header {
   overflow: hidden;
   line-height: 1.4;
   text-align: center;
-  border: 2px double grey;
+  border: 1px solid grey;
   transition: transform 0.2s ease;
   border-radius: 2%;
 }
 
 .post-block:hover {
   transform: scale(1.05);
-  border: 2px solid rgb(255, 255, 255, 1);
+  border: 1px solid rgb(255, 255, 255, 1);
   background: rgb(23, 23, 23);
 }
 
 .post-block:hover .thumbnail {
-  border: 2px solid rgb(255, 255, 255, 1);
+  border: 1px solid rgb(255, 255, 255, 1);
 }
 
 .post-block:hover .post-title {
@@ -269,8 +273,8 @@ header {
 }
 
 .post-content h2 {
-  border-top: 2px solid #242424;
-  border-bottom: 2px solid #242424;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 
 .post-content p, ul {
@@ -284,10 +288,11 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   color: #888;
-  border: 2px solid #1b2833;
   border-top: none;
+  border: 1px solid grey;
   display: block;
   padding: 0.5rem;
+
 }
 
 .home-link {
