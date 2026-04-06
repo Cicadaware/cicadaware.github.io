@@ -20,15 +20,12 @@ header {
 
 .title-nav-section {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
   gap: 1rem;
   border-radius: 1px;
-
 }
 
 .title {
@@ -55,7 +52,6 @@ header {
   box-sizing: border-box;
   width: 100%;
   border: 1px solid #44637c;
-  overflow: hidden;
 }
 
 .nav-links:hover {
@@ -112,6 +108,10 @@ header {
 }
 
 @media (max-width: 600px) {
+
+  .title-nav-section {
+      padding-bottom: 0.5rem;
+  }
 
   .dropdown:hover .dropdown-menu {
     visibility: visible;
