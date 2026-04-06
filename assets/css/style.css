@@ -45,7 +45,6 @@ header {
 }
 
 .nav-links {
-  /* background-color: #2f4455; */
   background-image: linear-gradient(to bottom, #2f4455, #23333f);
   border-top-left-radius: 1px;
   border-top-right-radius: 1px;
@@ -55,7 +54,6 @@ header {
 }
 
 .nav-links:hover {
-  /* background-color: #283947; */
   background-image: linear-gradient(to bottom, #23333f, #2f4455);
 }
 
@@ -103,15 +101,10 @@ header {
 }
 
 .dropdown-nav-item:hover {
-  /* background-color: #283947; */
   background-image: linear-gradient(to bottom, #23333f, #2f4455);
 }
 
 @media (max-width: 600px) {
-
-  .title-nav-section {
-      padding-bottom: 0.5rem;
-  }
 
   .dropdown:hover .dropdown-menu {
     visibility: visible;
