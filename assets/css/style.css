@@ -45,16 +45,18 @@ header {
 }
 
 .nav-links {
-  background-image: linear-gradient(to bottom, #2f4455, #23333f);
-  border-top-left-radius: 1px;
-  border-top-right-radius: 1px;
+  background-image: linear-gradient(to bottom, black, rgb(25, 25, 25));
+  border-radius: 1px;
   box-sizing: border-box;
   width: 100%;
-  border: 1px solid #44637c;
+  border: 1px solid grey;
 }
 
 .nav-links:hover {
-  background-image: linear-gradient(to bottom, #23333f, #2f4455);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-image: linear-gradient(to bottom, rgb(25, 25, 25), black);
+  border: 1px solid rgb(255, 255, 255, 1);
 }
 
 .dropdown {
@@ -71,6 +73,7 @@ header {
 
 .dropdown-menu {
   position: absolute;
+  z-index: 1000;
   top: 100%;
   left: 50%;
   width: 100%;
@@ -83,7 +86,7 @@ header {
   align-items: center;
   border-bottom-left-radius: 1px;
   border-bottom-right-radius: 1px;
-  border: 1px solid #44637c;
+  border: 1px solid grey;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -97,11 +100,11 @@ header {
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to bottom, #2f4455, #23333f);
+  background-color: black;
 }
 
 .dropdown-nav-item:hover {
-  background-image: linear-gradient(to bottom, #23333f, #2f4455);
+  background-color: rgb(25, 25, 25);
 }
 
 @media (max-width: 600px) {
@@ -301,7 +304,7 @@ a {
 }
 
 header, footer {
-  background-image: url('https://raw.githubusercontent.com/Cicadaware/cicadaware.github.io/refs/heads/main/assets/images/background2.png');
+  background-image: url('https://raw.githubusercontent.com/Cicadaware/cicadaware.github.io/refs/heads/main/assets/images/background.png');
   background-repeat: repeat;
   background-size: 384px 216px;
 }
