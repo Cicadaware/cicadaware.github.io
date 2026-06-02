@@ -45,18 +45,8 @@ header {
 }
 
 .nav-links {
-  background-image: linear-gradient(to bottom, black, rgb(25, 25, 25));
-  border-radius: 1px;
   box-sizing: border-box;
   width: 100%;
-  border: 1px solid grey;
-}
-
-.nav-links:hover {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  background-image: linear-gradient(to bottom, rgb(25, 25, 25), black);
-  border: 1px solid rgb(255, 255, 255, 1);
 }
 
 .dropdown {
@@ -187,7 +177,6 @@ header {
   height: auto;
   display: block;
   border: 1px solid grey;
-  border-radius: 2%;
  }
 
 .post-grid {
@@ -211,17 +200,12 @@ header {
   text-align: center;
   border: 1px solid grey;
   transition: transform 0.2s ease;
-  border-radius: 2%;
 }
 
 .post-block:hover {
   transform: scale(1.05);
   border: 1px solid rgb(255, 255, 255, 1);
   background: rgb(23, 23, 23);
-}
-
-.post-block:hover .thumbnail {
-  border: 1px solid rgb(255, 255, 255, 1);
 }
 
 .post-block:hover .post-title {
@@ -268,6 +252,23 @@ header {
   margin: 0.5rem;
 }
 
+.post-elements {
+  display: flex;
+  flex-direction: row;
+}
+
+.post-spacing {
+  background-image: url('https://raw.githubusercontent.com/Cicadaware/cicadaware.github.io/refs/heads/main/assets/images/background.png');
+  background-repeat: repeat;
+  background-size: 384px 216px;
+  padding: 10%;
+}
+.post-content {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  background-color: black;
+}
+
 .post-content h2 {
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
@@ -275,9 +276,10 @@ header {
 
 .post-content p, ul {
   box-sizing: border-box;
-  padding-left: 15%;
-  padding-right: 15%;
+  background-color: black;
+  line-height: 1.6;
 }
+
 /* footer */
 
 footer {
@@ -288,7 +290,7 @@ footer {
   border: 1px solid grey;
   display: block;
   padding: 0.5rem;
-
+  padding-top: 1rem;
 }
 
 .home-link {
@@ -304,7 +306,5 @@ a {
 }
 
 header, footer {
-  background-image: url('https://raw.githubusercontent.com/Cicadaware/cicadaware.github.io/refs/heads/main/assets/images/background.png');
-  background-repeat: repeat;
-  background-size: 384px 216px;
+  background-color: black;
 }
