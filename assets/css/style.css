@@ -266,7 +266,7 @@ header {
 .post-content {
   border-left: 1px solid grey;
   border-right: 1px solid grey;
-  background-color: black;
+  background-color: rgb(25, 25, 25);
 }
 
 .post-content h2 {
@@ -276,7 +276,7 @@ header {
 
 .post-content p, ul {
   box-sizing: border-box;
-  background-color: black;
+  background-color: rgb(25, 25, 25);
   line-height: 1.6;
 }
 
