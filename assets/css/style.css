@@ -158,6 +158,10 @@ header {
 
 /* content */
 
+.homepage-content {
+  display: block;
+  text-align: center;
+}
 .page-container {
   display: flex;
   flex-direction: column;
