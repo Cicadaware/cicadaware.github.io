@@ -3,7 +3,7 @@ html {
 }
 
 main {
-  flex: 1;
+  flex: 1 0 auto;
 }
 
 body {
@@ -83,8 +83,6 @@ header {
   margin: 0;
   padding: 0;
   visibility: hidden;
-  justify-content: center;
-  align-items: center;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -162,19 +160,14 @@ header {
   display: block;
   text-align: center;
 }
-.page-container {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid grey;
-}
 
-.submenu {
+.project-menu {
   display: flex;
   width: 100%;
   margin: 0 auto;
 }
 
-.submenu-item {
+.project-menu-item {
   flex: 1;
   font-size: 1.5rem;
   text-align: center;
@@ -184,18 +177,16 @@ header {
   border-left: 1px solid grey;
 }
 
-.submenu-item:hover {
+.project-menu-item:hover {
   background-image: linear-gradient(to bottom, black, rgb(45, 45, 45));
 } 
 
-.heading {
-  text-align: center;
-  font-size: 1.5rem;
-  background-image: linear-gradient(to bottom, rgb(25, 25, 25), black);
-  border-bottom: 1px solid grey;
-  border-top: 1px solid grey;
-  margin-top: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+.page-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  min-height:78.5vh;
+  margin: 0;
 }
 
 .content {
@@ -208,63 +199,13 @@ header {
   background-size: 384px 216px;
 }
 
-.content p {
-  margin: 1rem;
-}
-
-.content h2 {
-  text-align: center;
-  font-size: 2rem;
-  background-image: linear-gradient(to bottom, rgb(25, 25, 25), black);
-  border-bottom: 1px solid grey;
-  margin: 0;
-  color: rgb(255, 255, 255, 1);
-}
-
- .content a {
-  color: rgb(255, 255, 255, 1);
- }
-
- .content img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  border: 1px solid grey;
- }
-
+/* Each post card inside content class */
 .post-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
   margin: 1rem;
-}
-
-.post-block {
-  background: black;
-  box-shadow: 0px 6px 10px 4px black;
-  padding: 1rem;
-  height: 365px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  overflow: hidden;
-  line-height: 1.4;
-  text-align: center;
-  border: 1px solid grey;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.post-block:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 0px rgb(0, 0, 0, 0);
-  border: 1px solid rgb(255, 255, 255, 1);
-  background: rgb(23, 23, 23);
-}
-
-.post-block:hover .post-title {
-  background: rgb(23, 23, 23);
 }
 
 .post-link {
@@ -275,21 +216,57 @@ header {
   max-width: 300px;
 }
 
-.post-title {
-  background-color: #1b2833;
+.post-block {
   background: black;
+  box-shadow: 0px 6px 10px 4px black;
+  padding: 1rem;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-block:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px rgb(0, 0, 0, 0);
+  border: 1px solid rgb(255, 255, 255, 1);
+  background: rgb(23, 23, 23);
+}
+
+.post-block:hover {
+  background: rgb(23, 23, 23);
+}
+
+.post-title {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-decoration: none;
+  text-overflow: hidden;
+  font-weight: bold;
+}
+
+.post-thumbnail {
+  width: 100%;
+  height: 25vh;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.post-summary {
+  font-style: normal;
+  text-overflow: hidden;
 }
 
 .post-date {
-  font-size: 0.85rem;
+  margin-top: auto;
+  padding-top: 0.75rem;
+  margin-bottom: 0;
   font-style: italic;
-  color: #ddd;
-  border-top: 1px dotted grey;
-  border-bottom: 1px dotted grey;
-  display: inline;
 }
 
 .post-summary {
@@ -303,20 +280,19 @@ header {
   border-top: 1px dotted grey;
 }
 
-.post-block p {
-  margin: 0.5rem;
-}
+/* Inside each blog post */
 
-.post-elements {
+.post-container {
   display: flex;
   flex-direction: row;
+  flex: 1;
 }
 
 .post-spacing {
   background-image: url('https://raw.githubusercontent.com/Cicadaware/cicadaware.github.io/refs/heads/main/assets/images/background.png');
   background-repeat: repeat; 
   background-size: 384px 216px;  
-  padding: 10%;
+  flex: 0 0 clamp(1rem, 10vw, 12rem);
 }
 
 .post-content {
@@ -329,14 +305,28 @@ header {
 }
 
 .post-content h2 {
+  font-size: 2rem;
+  text-align: center;
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
   box-shadow: 0px 8px 10px -2px black;
+  margin: auto;
 }
 
-.post-content p, ul {
+.post-content p, .post-content ul {
   box-sizing: border-box;
   line-height: 1.6;
+  padding: 1rem;
+  margin: auto;
+}
+
+.post-content img {
+  border: 1px solid grey;
+}
+.game-window {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 /* footer */
@@ -348,8 +338,8 @@ footer {
   border-top: none;
   border: 1px solid grey;
   display: block;
-  padding: 0.5rem;
-  padding-top: 1rem;
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+  flex-shrink: 0;
 }
 
 .home-link {
